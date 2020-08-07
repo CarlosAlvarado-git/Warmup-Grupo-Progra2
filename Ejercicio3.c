@@ -27,7 +27,6 @@ void datos(struct estudiantes persona[]){
 
 void buscar(struct estudiantes persona[])
 {
-  printf("%d",persona[1].carnet);
   printf("Ingrese el carnet del estudiante que desea buscar: ");
   int carnet = 0, existe = -1, cont = 0;
   scanf("%d", &carnet);
