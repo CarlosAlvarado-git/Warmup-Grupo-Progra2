@@ -10,7 +10,7 @@ struct estudiantes
   int nota;
 } estudiante[15];
 
-void datos(struct estudiantes persona[]){
+void datos(struct estudiantes persona[]){ //Funcion para pedir los datos del estudiante
   for(int i=0; i<15;i++)
   {
     printf("Ingrese el nombre del estudiante: ");
@@ -25,19 +25,20 @@ void datos(struct estudiantes persona[]){
   }
 }
 
-void buscar(struct estudiantes persona[])
+void buscar(struct estudiantes persona[]) //Funcion para buscar el carnet del estudiante
 {
   printf("Ingrese el carnet del estudiante que desea buscar: ");
-  int carnet = 0, existe = -1, cont = 0;
-  scanf("%d", &carnet);
+  int carnet = 0, existe = -1, cont = 0; 
+  scanf("%d", &carnet); 
 
   do{
-    existe = (persona[cont].carnet == carnet)? cont: -1;
+    existe = (persona[cont].carnet == carnet)? cont: -1; //operador ternario 
     cont++;
-  }while(existe == -1 & cont <15);
+  }while(existe == -1 & cont <15); //Bucle para buscar el carnet en el vector
+  
   printf("\n\n");
 
-  if(existe != -1)
+  if(existe != -1) //Imprimir los datos del estudiante 
   {
     printf("Nombre del estudiante: ");
     printf("%s",persona[existe].nombre);
