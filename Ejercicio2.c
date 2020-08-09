@@ -20,14 +20,14 @@ int main(void)
     scanf("%d", &punto[i].y);
     scanf("%d", &punto[i].z);
 
-    printf("[%d, %d, %d]", punto[i].x, punto[i].x, punto[i].x); 
+    printf("[%d, %d, %d]", punto[i].x, punto[i].y, punto[i].z); 
   }
 
   printf("\n\nPUNTOS ALMACENADOS:\n");
 
   for(i = 0; i < 20; i++)
   {  
-    printf("[%d, %d, %d]\n", punto[i].x, punto[i].x, punto[i].x); 
+    printf("[%d, %d, %d]\n", punto[i].x, punto[i].y, punto[i].z); 
   }
 
   return 0;
