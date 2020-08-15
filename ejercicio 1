@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+struct puntos
+{
+  int x; 
+  int y; 
+  int z;
+}; 
+
+int main(void) 
+{
+  printf("Almcacen de puntos 3D\n"); 
+  struct puntos punto; 
+  printf("\n\nInserte el punto: "); 
+  scanf("%d", &punto.x); 
+  scanf("%d", &punto.y);
+  scanf("%d", &punto.z);
+  printf("[%d, %d, %d]", punto.x, punto.y, punto.z);
+  return 0;
+}
