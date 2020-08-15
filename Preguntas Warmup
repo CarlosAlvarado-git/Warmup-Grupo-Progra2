@@ -1,0 +1,16 @@
+¿Qué es un tipo de dato?
+  - Es la propiedad que permite que una variable reciba ciertas características que le permitirán realizar sus específicas operaciones, dependiendo del tipo de dato, y como la computadora lo interpreta. 
+¿Qué es un Struct en C?
+  - Es un tipo de dato creado por el usuario, que forma una colección de varios tipos de datos que llegan a ser los miembros de la estructura.
+¿Qué es un puntero?
+  - Es una variable que guarda una dirección de memoria.
+¿Cuál es la diferencia entre los siguientes métodos de Memory Allocation: Static,
+Automatic y Dynamic?
+  - Static: Almacena el contenido el valor de una variable a lo largo de la ejecución de un programa. (Variables locales, las que el usuario crea)
+  - Automatica: Guarda las instrucciones de cómo usar la memorio.
+  - Dynamic: Es aquella que se solicita en el tiempo de ejecución.(Variables que utilizan la función Malloc())
+¿Cuáles son las responsabilidades de un programador qué implementa métodos para
+solicitar memoria en tiempo de ejecución?
+  - 1. Debe de liberar la memoria al dejar de utilizarla y no saturar la misma. 
+  - 2. Al crear un puntero, se debe tener cuidado si ya apunta a algo o que apunte a NULL. 
+  - 3. No perder la dirección de memoria de las variables obtenidas por Malloc para que no suceda el punto 1.
