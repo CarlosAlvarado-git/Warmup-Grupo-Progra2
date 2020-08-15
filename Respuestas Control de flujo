@@ -1,0 +1,17 @@
+2)El programa deja de ejecutarse automaticamente en un número entre el 821,000 y el 840,000
+
+3)El orden de un algoritmo es el orden en el que se ejecutarán las acciones. En este caso, primero define las variables, 
+  luego pregunta si se desea calcular un solo número o un rango de numeros, en caso sea sólo 1, preguntará el número, lo 
+  guardará en una variable y ejecutará un ciclo desde el 1 hasta 1 número antes del número ingresado, dentro de ese ciclo
+  se analizará si el número iterado puede dividir exactamente al número que se desea calcular, en caso que sí, lo sumará
+  en un acumulador, en caso que no, lo pasará de largo, al finalizar el ciclo, se analiza si el número ingresado es igual
+  al número acumulado; en caso se ingrese un rango, se añadé un ciclo más, en este caso habrá un ciclo que recorra desde 2 
+  hasta el número ingreso para el límite, y dentro habrá otro ciclo, que recorra desde el 1 hasta el número iterado por el
+  primer ciclo, dentro se realizará el mismo proceso de analizar si el número iterado por el segundo ciclo puede dividir
+  exactamente al número iterado por el primer ciclo. Al final analizará si el número acumulado es igual al número iterado,
+  reiniciando la variable acumulador cada vez aue termina de analizar.
+
+4)El ciclo, debido que satura la memoria estática con las operaciones realizadas en el número extremadamente grande
+
+5)Sí lo mejoraría, debido que disminuye el margen de error, haciendo que sea posible la ejecución de este algoritmo en
+  números muy grandes
