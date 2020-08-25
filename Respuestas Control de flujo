@@ -13,5 +13,5 @@
 
 4)El ciclo, debido que satura la memoria estática con las operaciones realizadas en el número extremadamente grande
 
-5)Sí lo mejoraría, debido que disminuye el margen de error, haciendo que sea posible la ejecución de este algoritmo en
+5)Sí lo mejoraría, debido que disminuye el margen de (tiempo, explicar un poco más), haciendo que sea posible la ejecución de este algoritmo en
   números muy grandes
